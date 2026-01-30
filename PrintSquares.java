@@ -25,7 +25,7 @@ public class PrintSquares {
         int endNum = in.nextInt();
 
         for (int i = startNum; i <= endNum; ++i) {
-            System.out.print(i + " ");
+            System.out.print((int) Math.pow(i, 2) + " ");
         }
         System.out.println();
 
